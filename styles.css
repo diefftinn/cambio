@@ -1,0 +1,148 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+
+.hero{
+flex: auto;
+padding: 14%;
+}
+
+.hero, img{
+border-radius: 50rem;
+
+}
+
+
+
+.images{
+box-sizing: border-box;
+max-width: 30%;
+/* height: fit-content; */
+
+}
+
+a {
+    text-decoration: none;
+    column-gap: normal;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 80px);
+}
+
+.hero h1 {
+    font-size: 80px;
+    color: #dfe0e6;
+}
+
+.hero p {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #dfe0e6;
+}
+
+nav {
+    background: #020f74;
+    height: 80px;
+    box-shadow: rgba(254, 254, 254, 0.589) 0px 8px 24px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+nav a {
+    flex: 1;
+    height: 100%;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #f5f4f4;
+    transition: .2s ease-in-out all;
+    font-weight: 500;
+}
+
+nav a:hover {
+    background: #f0f0f0;
+    color: #4405e2;
+}
+
+nav .indicador {
+    width: 0px;
+    height: 7px;
+    background: #113cfc;
+    position: absolute;
+    bottom: 0;
+    transition: .3s ease-out all;
+}
+
+.seccion {
+    min-height: 80vh;
+    max-width: 800px;
+    width: 90%;
+    margin: auto;
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion .card {
+    background: #0058ef68;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: rgb(61, 80, 255) 0px 8px 24px;
+    text-align: center;
+}
+
+.seccion h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.seccion p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.seccion img {
+    width: 100%;
+    vertical-align: top;
+    margin-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    nav a {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    nav a {
+        font-size: 12px;
+    }
+}
