@@ -135,19 +135,6 @@ nav .indicador {
 
 
 
-@media screen and (max-width: 800px) {
-    nav a {
-        font-size: 24px;
-        padding: 5px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    nav a {
-        font-size: 22px;
-    }
-}
-
 .footer {
     
     display: flex;
@@ -215,12 +202,14 @@ nav .indicador {
     -o-border-radius: .3rem;
     padding: .3rem;
     background: white;
+    flex: auto;
   }
   
   .itemForm input[type="textarea"]{
     padding: 1.5rem;
-    color: #ffffff;
+    color: #000000;
     background: #ffffff;
+    flex: auto;
   }
   
   
@@ -269,3 +258,16 @@ nav .indicador {
     -o-border-radius: 50px;
     background-color: wheat;
   }
+  
+@media screen and (max-width: 800px) {
+  nav a {
+      font-size: 24px;
+      padding: 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  nav a {
+      font-size: 62px;
+  }
+}
