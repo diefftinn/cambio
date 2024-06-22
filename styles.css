@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: #000000;
+    background: #11bcff;
     font-family: 'Roboto', sans-serif;
     color: #ffffff;
 }
@@ -96,10 +96,10 @@ nav .indicador {
 
 .seccion {
     min-height: 80vh;
-    max-width: 800px;
+    max-width: 900px;
     width: 90%;
     margin: auto;
-    padding-top: 120px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,10 +108,11 @@ nav .indicador {
 
 .seccion .card {
     background: #0058ef68;
-    padding: 40px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: rgb(61, 80, 255) 0px 8px 24px;
     text-align: center;
+    
 }
 
 .seccion h1 {
@@ -127,7 +128,7 @@ nav .indicador {
 }
 
 .seccion img {
-    width: 100%;
+    width: 90%;
     vertical-align: top;
     margin-bottom: 20px;
 }
@@ -136,13 +137,135 @@ nav .indicador {
 
 @media screen and (max-width: 800px) {
     nav a {
-        font-size: 14px;
+        font-size: 24px;
         padding: 5px;
     }
 }
 
 @media screen and (max-width: 450px) {
     nav a {
-        font-size: 12px;
+        font-size: 22px;
     }
 }
+
+.footer {
+    
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    background-color: #031d9c;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 1rem;
+    height: auto;
+    
+  }
+  
+  .container-footer {
+   
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+  }
+  
+  .formContainer {
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: beige;
+   
+  }
+  
+  .textContact {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    color: beige;
+    gap: 1rem;
+  }
+  
+  .nameEmail {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    border-radius: white;
+  }
+  
+  .itemForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .itemForm input{
+    border: snow;
+    border-radius: .3rem;
+    -webkit-border-radius: .3rem;
+    -moz-border-radius: .3rem;
+    -ms-border-radius: .3rem;
+    -o-border-radius: .3rem;
+    padding: .3rem;
+    background: white;
+  }
+  
+  .itemForm input[type="textarea"]{
+    padding: 1.5rem;
+    color: #ffffff;
+    background: #ffffff;
+  }
+  
+  
+  .submit {
+    background-color: white;
+    padding: .4rem;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    cursor: pointer;
+  }
+  
+  .copy {
+    color: white;
+    padding: 2rem;
+    background-color: #000000;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+  }
+  
+  .redes {
+    
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    margin: auto 9rem; 
+  }
+  
+  .copy p {
+    margin: auto 4rem; 
+  }
+  
+  .red {
+    border: white;
+    padding: .3rem;
+    display: flex;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    background-color: wheat;
+  }
