@@ -47,12 +47,12 @@ a {
 }
 
 .hero h1 {
-    font-size: 80px;
+    font-size: 40px;
     color: #dfe0e6;
 }
 
 .hero p {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     color: #dfe0e6;
 }
@@ -133,12 +133,13 @@ nav .indicador {
     margin-bottom: 20px;
 }
 
+ 
 
 
 .footer {
     
     display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
     justify-content: center;
     background-color: #031d9c;
     background-position: center center;
@@ -146,13 +147,14 @@ nav .indicador {
     background-size: cover;
     padding: 1rem;
     height: auto;
+    ;
     
   }
   
   .container-footer {
    
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
    justify-content: space-around;
   }
   
@@ -183,6 +185,7 @@ nav .indicador {
   
   .nameEmail {
     display: flex;
+    display: flex;
     flex-direction: row;
     gap: 3rem;
     border-radius: white;
@@ -200,7 +203,7 @@ nav .indicador {
     -moz-border-radius: .3rem;
     -ms-border-radius: .3rem;
     -o-border-radius: .3rem;
-    padding: .3rem;
+    padding: .30rem;
     background: white;
     flex: auto;
   }
@@ -228,8 +231,7 @@ nav .indicador {
     color: white;
     padding: 2rem;
     background-color: #000000;
-    
-    display: flex;
+    flex-direction:column-reverse;
     justify-content: space-between;
     
     
@@ -238,13 +240,14 @@ nav .indicador {
   .redes {
     
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     gap: .5rem;
-    margin: auto 9rem; 
+    margin: auto 19rem; 
   }
   
   .copy p {
-    margin: auto 4rem; 
+    margin: auto 1rem; 
+    
   }
   
   .red {
@@ -257,17 +260,20 @@ nav .indicador {
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
     background-color: wheat;
+  
   }
   
-@media screen and (max-width: 800px) {
+  
+  @media screen and (max-width: 150px) {
+    nav a {
+        font-size: 22px;
+    }
+  
+@media screen and (max-width: 1500px) {
   nav a {
       font-size: 24px;
       padding: 5px;
   }
 }
 
-@media screen and (max-width: 450px) {
-  nav a {
-      font-size: 62px;
   }
-}
